@@ -1,16 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <vie-call :value ='test'></vie-call>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import {test} from '@/lang/Expr'
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
+  data:()=>({test})
 }
 </script>
 
